@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spandan Mukherjee - Personal Website</title>
+<style>
+  
+  body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; 
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  header h1 {
+    color: #3498db;
+  }
+  nav {
+    background-color: #3498db; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffffff; 
+    background-color: #2980b9; 
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+  }
+  footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 0; 
+    height: 25px; 
+    line-height: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  
+  .feedback-form {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+  }
+  .feedback-form input[type="text"],
+  .feedback-form input[type="tel"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea,
+  .feedback-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .feedback-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .feedback-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .photo {
+    width: 45%;
+    text-align: center;
+    margin-left: 20%;
+  }
+  .photo img {
+    max-width: 250%;
+    border-radius: 10px;
+    margin-top: 7px;
+    height: auto;
+    max-height: 400px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><B>SPANDAN MUKHERJEE</B></h1>
+  <img src="6zdsu0mj.png" alt="Logo" width="100">
+</header>
+
+<nav>
+  <a href="polu.html">HOME</a>
+  <a href="ABOUT.HTML">ABOUT ME</a>
+  <a href="kolte.html">CONNECT WITH ME</a>
+  <a href="contact.html">SEND FEEDBACK</a>
+  <a href="gallery.html">GALLERY</a>
+</nav>
+
+<div class="container">
+  <section id="feedback">
+    <div class="feedback-form">
+      <h2><FONT COLOR=#007bff>Send Feedback</FONT></h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="tel" name="phone" placeholder="Your Phone Number" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="feedback" placeholder="Your Feedback" rows="6" required></textarea><br>
+        <input type="submit" value="Send Feedback">
+      </form>
+    </div>
+  </section>
+  
+  <section>
+    <div class="photo">
+      <img src="poi.jpg" alt="Placeholder Image">
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2013 SPANDAN MUKHERJEE</p>
+</footer>
+
+</body>
+</html>

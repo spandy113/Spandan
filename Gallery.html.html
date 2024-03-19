@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spandan Mukherjee - Gallery</title>
+<style>
+  body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #3498db;
+  }
+  header img {
+    order: 2; 
+  }
+  header h1 {
+    color: #3498db; 
+    margin: 0; 
+    order: 1; 
+  }
+  nav {
+    background-color: #3498db; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffffff; 
+    background-color: #2980b9; 
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 0; 
+    height: 25px; 
+    line-height: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  .gallery {
+    padding: 20px;
+    margin-top: 20px; /* Add space above the photos */
+  }
+  .gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add space between photos */
+    cursor: pointer;
+  }
+  .download-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    border: 1px solid #3498db; /* Add border */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  .download-link:hover {
+    background-color: #2980b9; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+  }
+  h2 {
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .blink {
+    animation: blink 1s infinite; /* Blinking animation */
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><b>SPANDAN MUKHERJEE</b></h1> 
+  <img src="6zdsu0mj.png" alt="Logo" width="100">
+</header>
+
+<nav>
+  <a href="polu.html">HOME</a>
+  <a href="ABOUT.HTML">ABOUT ME</a>
+  <a href="kolte.html">CONNECT WITH ME</a>
+  <a href="contact.html">SEND FEEDBACK</a>
+  <a href="">GALLERY</a>
+</nav>
+
+<div class="container">
+  <section>
+    <h2>GALLERY</h2>
+    <div class="gallery">
+      <!-- Replace the src attribute with the actual paths to your images -->
+      <a href="haf.jpg" download><img src="haf.jpg" alt="Image 1"></a>
+      <a href="IMG_20230705_174515526.jpg" download><img src="IMG_20230705_174515526.jpg" alt="Image 2"></a>
+      <a href="loki.jpg" download><img src="loki.jpg" alt="Image 3"></a>
+      <a href="IMG-20230525-WA0040.jpg" download><img src="IMG-20230525-WA0040.jpg" alt="Image 4"></a>
+      <a href="sayan.jpg" download><img src="sayan.jpg" alt="Image 5"></a>
+      <a href="IMG-20230508-WA0026.jpg" download><img src="IMG-20230508-WA0026.jpg" alt="Image 5"></a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2013 SPANDAN MUKHERJEE</p>
+</footer>
+
+</body>
+</html>
